@@ -18,16 +18,17 @@ En quelque sorte, ce projet pourrait permettre de prédire les futurs vainqueurs
 # Installation
 
 Pour commencer assurez vous d'avoir installé tous les packages nécassaire au bon fonctionnement du code. 
-Pour cela, vous trouverez dans le fichier *{0 - requirements.txt} la liste de tous les packages utilisés lors de ce projet.
+Pour cela, vous trouverez la liste de tous les packages utilisés lors de ce projet dans le fichier : 0 - requirements.txt
 
-Ensuite, il vous faut copier-coller le code de l'étape 7 (7 - Copy paste in python.py) dans une console python.
+Ensuite, il vous faut copier-coller dans une console python le code du fichier : 7 - Copy paste in python.py
 
 # Démarrage
 
 Pour obtenir le résultat final de ce projet, il vous suffit de lancer le code que vous venez de copier-coller dans votre console python.
 Il vous sera demandé de renseigner votre adresse mail dans la console python afin que la suite du code puisse s'executer.
 
-Maintenant, attendez quelques instants puis rendez-vous sur votre boîte mail afin de consulter le mail intitulé : Meilleures Performances en athlétisme sur le dernier mois. Parcourez le tableau de ce mail.
+Maintenant, attendez quelques instants puis rendez-vous sur votre boîte mail afin de consulter le mail intitulé : Meilleures Performances en athlétisme sur le dernier mois. 
+Puis, parcourez le tableau de ce mail.
 
 # Fabriqué avec
 
