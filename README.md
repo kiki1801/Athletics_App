@@ -17,7 +17,7 @@ En quelque sorte, ce projet pourrait permettre de prédire les futurs vainqueurs
 
 # Installation
 
-Pour commencer assurez vous d'avoir installé tous les packages nécassaire au bon fonctionnement du code.\ 
+Pour commencer assurez vous d'avoir installé tous les packages nécassaire au bon fonctionnement du code.\
 Pour cela, vous trouverez la liste de tous les packages utilisés lors de ce projet dans le fichier : **0 - requirements.txt**
 
 Ensuite, il vous faut copier-coller dans une console python le code du fichier : **7 - Copy paste in python.py**
