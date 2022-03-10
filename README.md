@@ -1,5 +1,5 @@
 
-# Extension prévu depuis le répertoire : kyllianj/Athletics
+# Extension prévu basé sur le répertoire : kyllianj/Athletics
 
 0 - Newletter prévu avec package schedule mais à partir de du mois de mai problème pour envoyer un mail gmail (Plus possible du fait mise à jour des conditions sur la sécurité faible).\
 1 - Ajout de toutes les disciplines.\
