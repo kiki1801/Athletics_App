@@ -21,7 +21,7 @@ from function_all import choice,create_calendar_links,get_competitions_infos,fil
 language_list = ['English','French']
 
 choice(language_list)
-language = str(input('Choose your language : '))
+language = int(input('Choose your language : '))
 
 #PROGRAM IN ENGLISH OR IN FRENCH
 if language == 1:
