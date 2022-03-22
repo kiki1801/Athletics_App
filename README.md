@@ -1,5 +1,8 @@
+# In Progress
 
-# Extension prévu basé sur le répertoire : kyllianj/Athletics
+## Based on kyllianj/Athletics  
+
+Extension prévu basé sur le répertoire : kyllianj/Athletics
 
 1 - Ajout de toutes les disciplines.\
 2 - Sortir les n meilleurs performences par discipline des k dernières semaines (Filtre plus en fonction des seuils).\
