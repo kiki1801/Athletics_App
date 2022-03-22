@@ -106,7 +106,7 @@ if language == 1:
                     choice(throws_list)
                     race = int(input('Select one : '))
                     print('Coming Soon...')
-    #2B -  Any Records ?
+    #2B - Any Records ?
     elif feature == 2:
         print('Coming Soon...')
     #2C - Winning Probability ?
