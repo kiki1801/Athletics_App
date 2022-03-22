@@ -13,7 +13,9 @@ def choice(list_of_choice):
         print('{} : {}'.format(str(i),element))
         i = i+1
         
-#A - Create links for IAAF calendar pages        
+###############################################################################
+        
+#1A - Create links for IAAF calendar pages        
 #Create links for IAAF calendar pages
 def create_calendar_links():
     calendar_urls = ['https://www.worldathletics.org/competition/calendar-results?']
@@ -26,7 +28,7 @@ def create_calendar_links():
 
 ###############################################################################
 
-#B - Get informations of each competition on each calendar's page
+#1B - Get informations of each competition on each calendar's page
 #Library
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -62,7 +64,7 @@ def get_competitions_infos(list_with_urls):
 
 ###############################################################################
 
-#C - Keep only competitions we need
+#1C - Keep only competitions we need
 #Library 
 import datetime
 
