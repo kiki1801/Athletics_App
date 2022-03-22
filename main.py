@@ -165,7 +165,6 @@ if language == 1:
                 race = int(input('Select one : '))
                 print('Coming Soon...')
 else:
-    print('Prochainement...')
     #1A - Créer les liens pour les pages du calendrier IAAF
     calendar_urls = create_calendar_links()
     
@@ -175,3 +174,121 @@ else:
     #1C - Filtrer le tableau des compétitions
     number_of_weeks = int(input('Combien de semaines passées vous voulez garder ? : '))
     filtered_df = filter_df(competition_infos_df,number_of_weeks)
+    
+    #2 - Choisir entre 3 fonctionnalités 
+    features_list = ['Regardez les N meilleures performances','Nouveaux Records ?',"Probabilité de l'emporter ?"]
+    choice(features_list)
+    feature = int(input('Sélectionner une fonctionnalité : '))
+    
+    #2A - Regardez les N meilleures performances
+    if feature == 1:
+        yes_no_list = ['Oui','Non']
+        choice(yes_no_list)
+        yes_no = int(input('Voulez-vous consulter les N meilleures performances pour une nationalité spécifique ?'))
+        
+        if yes_no == 1:
+            print('Prochainement...')
+        else:
+            number_of_marks = int(input('N Meilleures Performances ? Choisissez N : '))
+            
+            genders_list = ['Homme','Femme']
+            choice(genders_list) 
+            gender = int(input('Sélectionnez-en un : '))
+            
+            if gender == 1:
+                event_types_list = ['Courses','Sauts','Lancers']
+                choice(event_types_list)
+                event_type = int(input('Quel type de disciplines ? '))
+                
+                if event_type == 1:
+                    races_list = ["60m","100m","200m","400m","60mH","110mH","400mH","800m","1500m","3000m","3000mSC","5000m","10000m"]
+                    choice(races_list)
+                    race = int(input('Sélectionnez-en un : '))
+                    print('Prochainement...')
+                elif event_type == 2:
+                    jumps_list = ["Saut en Longueur","Triple Saut","Saut en Hauteur","Saut à la Perche"]
+                    choice(jumps_list)
+                    race = int(input('Sélectionnez-en un : '))
+                    print('Prochainement...')
+                else:
+                    throws_list = ["Lancer de Poids","Lancer de Disque","Lancer de Marteau","Lancer de Javelot"]
+                    choice(throws_list)
+                    race = int(input('Sélectionnez-en un : '))
+                    print('Prochainement...')
+            else:
+                #Choose between type of event
+                event_types_list = ['Courses','Sauts','Lancers']
+                choice(event_types_list)
+                event_type = int(input('Quel type de disciplines ? '))
+                
+                if event_type == 1:
+                    #Choose a race event
+                    races_list = ["60m","100m","200m","400m","60mH","100mH","400mH","800m","1500m","3000m","3000mSC","5000m","10000m"]
+                    choice(races_list)
+                    race = int(input('Sélectionnez-en un : '))
+                    print('Prochainement...')
+                elif event_type == 2:
+                    #Choose a jump event
+                    jumps_list = ["Saut en Longueur","Triple Saut","Saut en Hauteur","Saut à la Perche"]
+                    choice(jumps_list)
+                    race = int(input('Sélectionnez-en un : '))
+                    print('Prochainement...')
+                else:
+                    #Choose a throw event
+                    throws_list = ["Lancer de Poids","Lancer de Disque","Lancer de Marteau","Lancer de Javelot"]
+                    choice(throws_list)
+                    race = int(input('Sélectionnez-en un : '))
+                    print('Prochainement...')
+    #2B - Nouveaux Records ?
+    elif feature == 2:
+        print('Prochainement...')
+    #2C - Probabilité de l'emporter ?
+    else:
+        genders_list = ['Homme','Femme']
+        choice(genders_list) 
+        gender = int(input('Sélectionnez-en un : '))
+        
+        if gender == 1:
+            event_types_list = ['Courses','Sauts','Lancers']
+            choice(event_types_list)
+            event_type = int(input('Quel type de disciplines ? '))
+            
+            if event_type == 1:
+                races_list = ["60m","100m","200m","400m","60mH","110mH","400mH","800m","1500m","3000m","3000mSC","5000m","10000m"]
+                choice(races_list)
+                race = int(input('Sélectionnez-en un : '))
+                print('Prochainement...')
+            elif event_type == 2:
+                jumps_list = ["Saut en Longueur","Triple Saut","Saut en Hauteur","Saut à la Perche"]
+                choice(jumps_list)
+                race = int(input('Sélectionnez-en un : '))
+                print('Prochainement...')
+            else:
+                throws_list = ["Lancer de Poids","Lancer de Disque","Lancer de Marteau","Lancer de Javelot"]
+                choice(throws_list)
+                race = int(input('Sélectionnez-en un : '))
+                print('Prochainement...')
+        else:
+            #Choose between type of event
+            event_types_list = ['Courses','Sauts','Lancers']
+            choice(event_types_list)
+            event_type = int(input('Quel type de disciplines ? '))
+            
+            if event_type == 1:
+                #Choose a race event
+                races_list = ["60m","100m","200m","400m","60mH","100mH","400mH","800m","1500m","3000m","3000mSC","5000m","10000m"]
+                choice(races_list)
+                race = int(input('Sélectionnez-en un : '))
+                print('Prochainement...')
+            elif event_type == 2:
+                #Choose a jump event
+                jumps_list = ["Saut en Longueur","Triple Saut","Saut en Hauteur","Saut à la Perche"]
+                choice(jumps_list)
+                race = int(input('Sélectionnez-en un : '))
+                print('Prochainement...')
+            else:
+                #Choose a throw event
+                throws_list = ["Lancer de Poids","Lancer de Disque","Lancer de Marteau","Lancer de Javelot"]
+                choice(throws_list)
+                race = int(input('Sélectionnez-en un : '))
+                print('Prochainement...')
