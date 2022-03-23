@@ -3,7 +3,7 @@
 """
 Created on Sat Mar 19 11:31:02 2022
 
-@author: kyllian
+@author: Kyllian James
 """
 
 #0 - Library
