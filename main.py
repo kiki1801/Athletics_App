@@ -216,25 +216,21 @@ else:
                     race = int(input('Sélectionnez-en un : '))
                     print('Prochainement...')
             else:
-                #Choose between type of event
                 event_types_list = ['Courses','Sauts','Lancers']
                 choice(event_types_list)
                 event_type = int(input('Quel type de disciplines ? '))
                 
                 if event_type == 1:
-                    #Choose a race event
                     races_list = ["60m","100m","200m","400m","60mH","100mH","400mH","800m","1500m","3000m","3000mSC","5000m","10000m"]
                     choice(races_list)
                     race = int(input('Sélectionnez-en un : '))
                     print('Prochainement...')
                 elif event_type == 2:
-                    #Choose a jump event
                     jumps_list = ["Saut en Longueur","Triple Saut","Saut en Hauteur","Saut à la Perche"]
                     choice(jumps_list)
                     race = int(input('Sélectionnez-en un : '))
                     print('Prochainement...')
                 else:
-                    #Choose a throw event
                     throws_list = ["Lancer de Poids","Lancer de Disque","Lancer de Marteau","Lancer de Javelot"]
                     choice(throws_list)
                     race = int(input('Sélectionnez-en un : '))
