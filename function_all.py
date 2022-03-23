@@ -3,7 +3,7 @@
 """
 Created on Sat Mar 19 11:33:18 2022
 
-@author: kyllian
+@author: Kyllian James
 """
 
 #Function to make choice while running the code
