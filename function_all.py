@@ -12,20 +12,7 @@ def choice(list_of_choice):
     for element in list_of_choice:
         print('{} : {}'.format(str(i),element))
         i = i+1
-        
-#Create a list with name of each country with his ISO code 3
-import pycountry
-def get_iso_code():
-    list_iso3 = []
-    for country in pycountry.countries:
-        list_iso3.append("{} ({})".format(country.name, country.alpha_3))
-    
-    #Replace RUS by ANA because Russian Athletics Federation was suspended in 2015.
-    #Authorised Neutral Athlete (ANA) is the category under which approuved Russian athletes can compete at international competitions.
-    list_iso3_ANA = list(map(lambda x: x.replace('Russian Federation (RUS)', 'Authorised Neutral Athletes (ANA)'), list_iso3))
-    
-    return list_iso3_ANA        
-        
+
 ###############################################################################
         
 #1A - Create links for IAAF calendar pages        
@@ -102,6 +89,21 @@ def filter_df(dataframe,n):
     
     return filtered_df
 
+###############################################################################
 
+#2A - Look at the Top N Marks
+
+#Create a list with name of each country with his ISO code 3
+import pycountry
+def get_iso_code():
+    list_iso3 = []
+    for country in pycountry.countries:
+        list_iso3.append("{} ({})".format(country.name, country.alpha_3))
+    
+    #Replace RUS by ANA because Russian Athletics Federation was suspended in 2015.
+    #Authorised Neutral Athlete (ANA) is the category under which approuved Russian athletes can compete at international competitions.
+    list_iso3_ANA = list(map(lambda x: x.replace('Russian Federation (RUS)', 'Authorised Neutral Athletes (ANA)'), list_iso3))
+    
+    return list_iso3_ANA
 
 
