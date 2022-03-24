@@ -13,9 +13,10 @@ import re
 import urllib3
 import json 
 import datetime
+import pycountry
 
 #0 - Import function form other file
-from function_all import choice,create_calendar_links,get_competitions_infos,filter_df
+from function_all import choice,create_calendar_links,get_competitions_infos,filter_df,get_iso_code
 
 #Welcome Message
 print('Welcome to the IAAF browser competitions results and probability model of future winners !')
