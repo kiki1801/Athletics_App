@@ -17,6 +17,10 @@ import datetime
 #0 - Import function form other file
 from function_all import choice,create_calendar_links,get_competitions_infos,filter_df
 
+#Welcome Message
+print('Welcome to the IAAF browser competitions results and probability model of future winners !')
+print('')
+
 #1 - Choose your language
 language_list = ['English','French']
 
@@ -48,8 +52,12 @@ if language == 1:
         yes_no = int(input('Do you want to look at the top N marks for a specific nationality ? '))
         
         if yes_no == 1:
-            print('Coming Soon...')
             #Filter for choosen nationality and then run the same code as if you don't want to look for a specific nationality
+            list_iso_code = get_iso_code()
+            choice(list_iso_code)
+            iso_code = input('Choose one by typing his ISO code : ')
+            print('')
+            print('Coming Soon...')
         else:
             number_of_marks = int(input('Top N Marks ? Choose N : '))
             
@@ -187,6 +195,10 @@ else:
         yes_no = int(input('Voulez-vous consulter les N meilleures performances pour une nationalité spécifique ?'))
         
         if yes_no == 1:
+            list_iso_code = get_iso_code()
+            choice(list_iso_code)
+            iso_code = input('Choisissez-en un en écrivant son code ISO : ')
+            print('')
             print('Prochainement...')
         else:
             number_of_marks = int(input('N Meilleures Performances ? Choisissez N : '))
