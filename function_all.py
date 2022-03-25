@@ -91,6 +91,41 @@ def filter_df(dataframe,n):
 
 ###############################################################################
 
+#1D - Create links for competitions results pages
+def create_results_links():
+    #Links for day 1
+    results_urls = []
+    for identity in list(filtered_df['id']):
+        things_make_results_link = ['https://www.worldathletics.org/competition/calendar-results/results/',str(identity)]
+        results_url = ''.join(things_make_results_link)
+        results_urls.append(results_url)
+           
+    #Links for days 2 until n
+    #Create new column in filtered_df
+    filtered_df['startDate'] = pd.to_datetime(filtered_df['startDate']).dt.date
+    filtered_df['Number_of_days'] = filtered_df['endDate'] - filtered_df['startDate'] 
+
+    #Loop on index to keep only competitions with Number_of_days > 0
+    index_list = list(filtered_df.index)
+    for k in index_list:
+        if filtered_df['Number_of_days'][k].days == 0:
+            filtered_df_clean = filtered_df.drop(labels=k, axis=0)
+
+    #Reset filtered_df index        
+    filtered_df_clean = filtered_df_clean.reset_index(drop=True)
+
+    #Loop again on index       
+    for index in list(filtered_df_clean.index):
+        n_days = filtered_df_clean['Number_of_days'][index].days + 2
+        for j in range(2,n_days):
+            things_to_make_link = ['https://www.worldathletics.org/competition/calendar-results/results/',str(filtered_df_clean['id'][index]),'?day=',str(j)]
+            results_url = ''.join(things_to_make_link)
+            results_urls.append(results_url)
+            
+    return results_urls
+
+###############################################################################
+
 #2A - Look at the Top N Marks
 
 #Create a list with name of each country with his ISO code 3
