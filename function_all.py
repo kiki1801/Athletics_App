@@ -36,7 +36,7 @@ import re
 import urllib3
 import json 
 
-#Function to scrap 
+#Function for scraping 
 def get_content(regex,url):
     req = urllib3.PoolManager()
     res = req.request('GET',url)
