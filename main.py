@@ -16,7 +16,7 @@ import datetime
 import pycountry
 
 #0 - Import function form other file
-from function_all import choice,create_calendar_links,get_competitions_infos,filter_df,get_iso_code
+from function_all import choice,create_calendar_links,get_competitions_infos,filter_df,create_results_links,get_iso_code
 
 #Welcome Message
 print('Welcome to the IAAF browser competitions results and probability model of future winners !')
@@ -39,6 +39,9 @@ if language == 1:
     #1C - Keep only competitions we need
     number_of_weeks = int(input('How many past weeks you want to keep ? : '))
     filtered_df = filter_df(competition_infos_df,number_of_weeks)
+    
+    #1D - Create links for competitions results pages
+    results_urls = create_results_links()
     
     #2 - Choose between 3 features
     features_list = ['Look at the Top N Marks','Any Records ?','Winning Probability ?']
@@ -174,7 +177,7 @@ if language == 1:
                 race = int(input('Select one : '))
                 print('Coming Soon...')
 else:
-    #1A - Créer les liens pour les pages du calendrier IAAF
+    #1A - Créer les liens des pages du calendrier IAAF
     calendar_urls = create_calendar_links()
     
     #1B - Scrap les informations de chaque compétition de chaque page du calendrier
@@ -183,6 +186,9 @@ else:
     #1C - Filtrer le tableau des compétitions
     number_of_weeks = int(input('Combien de semaines passées vous voulez garder ? : '))
     filtered_df = filter_df(competition_infos_df,number_of_weeks)
+    
+    #1D - Créer les liens des pages de résultats de chaque compétition
+    results_urls = create_results_links()
     
     #2 - Choisir entre 3 fonctionnalités 
     features_list = ['Regardez les N meilleures performances','Nouveaux Records ?',"Probabilité de l'emporter ?"]
