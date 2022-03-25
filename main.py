@@ -53,7 +53,7 @@ if language == 1:
         yes_no = int(input('Do you want to look at the top N marks for a specific nationality ? '))
         
         if yes_no == 1:
-            #Filter for choosen nationality and then run the same code as if you don't want to look for a specific nationality
+            #Choose a nationality and then run the same code as if you don't want to look for a specific nationality
             list_iso_code = get_iso_code()
             choice(list_iso_code)
             iso_code = input('Choose one by typing his ISO code : ')
