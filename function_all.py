@@ -69,7 +69,7 @@ def get_competitions_infos(list_with_urls):
 import datetime
 
 #Keep the ones between today and n past weeks
-def filter_df(dataframe,n):
+def filter_competitions_df(dataframe,n):
     #Keep the ones with results
     dataframe_bis = dataframe.loc[(dataframe['hasResults'] == True )]
         
