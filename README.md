@@ -5,4 +5,4 @@
 
 # Contributor
 
-@kyllianj
+- @kyllianj
