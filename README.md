@@ -1,8 +1,14 @@
-# Track and Field Results Navigator and Winner Probability Model \
-# In Progress
+# Track and Field Results Navigator and Winner Probability Model (In Progress)
 
-## Based on kyllianj/M1_Web_Scraping_IAAF  
+
+# Build With 
+
+- Python 3
 
 # Contributor
 
 - @kyllianj
+
+# Based On 
+
+- kyllianj/M1_Web_Scraping_IAAF 
