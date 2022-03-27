@@ -16,7 +16,7 @@ import datetime
 import pycountry
 
 #0 - Import function form other file
-from function_all import choice,create_calendar_links,get_competitions_infos,filter_df,create_results_links,get_iso_code
+from function_all import choice,create_calendar_links,get_competitions_infos,filter_competitions_df,create_results_links,get_iso_code
 
 #Welcome Message
 print('Welcome to the IAAF browser competitions results and probability model of future winners !')
@@ -38,7 +38,7 @@ if language == 1:
     
     #1C - Keep only competitions we need
     number_of_weeks = int(input('How many past weeks you want to keep ? : '))
-    filtered_df = filter_df(competition_infos_df,number_of_weeks)
+    filtered_df = filter_competitions_df(competition_infos_df,number_of_weeks)
     
     #1D - Create links for competitions results pages
     results_urls = create_results_links()
