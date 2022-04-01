@@ -4,7 +4,7 @@
 
 # Build With 
 
-- Python 3
+- Python 3 (Anaconda Navigator -> Spider -> mettre lien anaconda navigator
 
 # Getting Started
 
