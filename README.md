@@ -28,7 +28,8 @@ Some of the challenges you faced and features you hope to implement in the futur
 
 ## Prerequisites
 
-To begin with, make sure you have installed all the packages necessary to run the code properly.\
+To begin with, make sure you have installed all the packages necessary to run the code properly.
+
 In your terminal use the following command in order to install all the packages used for this project according to the configuration file `requirements.txt` :
    ```sh
    pip install -r requirements.txt
