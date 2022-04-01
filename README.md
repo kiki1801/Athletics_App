@@ -14,7 +14,7 @@
 
 # Contributor
 
-- @kyllianj
+- [@kyllianj](https://github.com/kyllianj)
 
 # Based On 
 
