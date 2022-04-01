@@ -21,8 +21,11 @@ En quelque sorte, ce projet pourrait permettre de prédire les futurs vainqueurs
 
 ## Prerequisites
 
-Pour commencer assurez vous d'avoir installé tous les packages nécassaire au bon fonctionnement du code.\
-Pour cela, vous trouverez la liste de tous les packages utilisés lors de ce projet dans le fichier : **0 - requirements.txt**
+To begin with, make sure you have installed all the packages necessary to run the code properly.\
+In your terminal use the following command in order to install all the packages used for this project according to the configuration file `requirements.txt` :
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 ## Installation
 
