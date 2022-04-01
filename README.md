@@ -40,7 +40,10 @@ In your terminal use the following command in order to install all the packages 
 Soon...
 
 <!--  Ensuite, il vous faut copier-coller dans une console python le code du fichier : **7 - Copy paste in python.py**
-BE CAREFUL WHEN IMPORT FUNCTION THAT FILES WITH FUNCTION IN THE SAME DIRECTORY AS MAIN.PY --> 
+BE CAREFUL WHEN IMPORT FUNCTION THAT FILES WITH FUNCTION IN THE SAME DIRECTORY AS MAIN.PY 
+
+Further Explanation Soon
+--> 
 
 ## Usage
 
