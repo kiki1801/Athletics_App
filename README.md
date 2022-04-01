@@ -11,6 +11,11 @@ En quelque sorte, ce projet pourrait permettre de prédire les futurs vainqueurs
 
 ![Capture d’écran 2022-04-01 à 11 31 11](https://user-images.githubusercontent.com/98753607/161236875-4302259d-3984-48aa-ad13-efbb8cbbcb2f.png)
 
+Some of the challenges you faced and features you hope to implement in the future.
+
+3. Table of Contents (Optional)
+
+
 # Build With 
 
 - [Anaconda Navigator](https://www.anaconda.com/products/distribution)
@@ -29,8 +34,8 @@ In your terminal use the following command in order to install all the packages 
 
 ## Installation
 
-Ensuite, il vous faut copier-coller dans une console python le code du fichier : **7 - Copy paste in python.py**
-BE CAREFUL WHEN IMPORT FUNCTION THAT FILES WITH FUNCTION IN THE SAME DIRECTORY AS MAIN.PY 
+<!--  Ensuite, il vous faut copier-coller dans une console python le code du fichier : **7 - Copy paste in python.py**
+BE CAREFUL WHEN IMPORT FUNCTION THAT FILES WITH FUNCTION IN THE SAME DIRECTORY AS MAIN.PY --> 
 
 ## Usage
 
