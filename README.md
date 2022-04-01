@@ -4,7 +4,9 @@
 
 # Build With 
 
-- Python 3 (Anaconda Navigator -> Spider -> mettre lien anaconda navigator
+- [Anaconda Navigator](https://www.anaconda.com/products/distribution)
+- Spyder 5.1.5
+- Python 3.9.7
 
 # Getting Started
 
