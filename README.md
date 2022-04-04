@@ -34,7 +34,7 @@ In your terminal use the following command in order to install all the packages 
    ```sh
    pip install -r requirements.txt
    ```
-
+   
 ## Installation
 
 You must copy raw contents of the `main.py` and `function_all.py` files.
@@ -46,13 +46,17 @@ Soon more explanations...
 
 ## Usage
 
-Soon...
+Now, you can run the `main.py` file.
 
-<!-- Pour obtenir le résultat final de ce projet, il vous suffit de lancer le code que vous venez de copier-coller dans votre console python.\
-Il vous sera demandé de renseigner votre adresse mail dans la console python puis appuyer sur entrée afin que la suite du code puisse s'exécuter.
+Just below you can see a demo where I chose to lauch the browser in English.
 
-Maintenant, attendez quelques instants puis rendez vous sur votre boîte mail afin de consulter le mail intitulé : Meilleures Performances en athlétisme sur le dernier mois.\
-Puis, parcourez le contenu de ce mail. -->
+![Capture d’écran 2022-04-05 à 01 17 41](https://user-images.githubusercontent.com/98753607/161648312-db818eff-ba5d-4f53-a268-4c29bd5346ba.png)
+
+Then I kept 2 weeks of interest in the results of the competitions.
+
+![Capture d’écran 2022-04-05 à 01 18 19](https://user-images.githubusercontent.com/98753607/161648324-00f8491f-fb99-4c9d-9b3c-665c6bef86b3.png)
+
+Soon more explanations...
 
 # Contributor
 
