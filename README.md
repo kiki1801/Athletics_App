@@ -37,13 +37,12 @@ In your terminal use the following command in order to install all the packages 
 
 ## Installation
 
-You need to copy raw content from files `main.py` and `function_all.py`.
-Make sure to have these two files in the same working directory. If it's not the case, you have to modify line code 19 in file `main.py` by adding the folder's name where `function_all.py` is saved : 
+You must copy raw contents of the `main.py` and `function_all.py` files.
+Make sure you have these two files in the same working directory. If not, you need to modify the code in line 19 in the `main.py` file by adding the name of the folder where `function_all.py` is saved : 
    ```sh
    from folder.function_all import
    ```
-Further Explanation Soon...
-
+Soon more explanations...
 
 ## Usage
 
