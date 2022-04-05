@@ -63,3 +63,4 @@ Soon more explanations...
 # Contributor
 
 - **Kyllian James** ([@kyllianj](https://github.com/kyllianj))
+- [LinkedIn](https://www.linkedin.com/in/kyllianjames/) 
