@@ -41,7 +41,7 @@ if language == 1:
     filtered_df = filter_competitions_df(competition_infos_df,number_of_weeks)
     
     #1D - Create links for competitions results pages
-    results_urls = create_results_links()
+    results_urls = create_results_links(filtered_df)
     
     #2 - Choose between 3 features
     features_list = ['Look at the Top N Marks','Any Records ?','Winning Probability ?']
