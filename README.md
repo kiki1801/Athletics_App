@@ -1,4 +1,4 @@
-# Track and Field Results Navigator and Winner Probability Model (In Progress)
+# Track and Field Results Browser and Winner Probability Model (In Progress)
 
 # About the Project
 
