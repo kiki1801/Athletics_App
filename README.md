@@ -2,6 +2,8 @@
 
 # About the Project
 
+Soon...
+
 <!-- This navigator is based on a web scraping project in my first year's master degree ([kyllianj/M1_Web_Scraping_IAAF](https://github.com/kyllianj/M1_Web_Scraping_IAAF))
 
 Il consiste à faire du web scraping sur le calendrier des compétitions du site de l'Association Internationale des Fédérations d'Athlétisme ([IAAF](https://worldathletics.org/competition/calendar-results?) en anglais) afin de d'envoyer un mail récapitulatif des meilleures performances d'athlétisme, relativement à des seuils fixés, réalisées au cours des quatre dernières semaines écoulées. 
