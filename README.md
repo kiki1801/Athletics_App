@@ -50,26 +50,26 @@ Soon more explanations...
 
 Now, you can run the `main.py` file.
 
-Just below you can see a demo where I chose to lauch the browser in English.
-Then I kept 2 weeks of interest in the results of the competitions.
-choix englais puis deux semaines
+Below, you can see a demo where I chose to launch the browser in English. Then, I kept 2 weeks of interest in the results of the competitions.
 
 ![Screen 1](https://user-images.githubusercontent.com/98753607/161865916-4ed93373-003c-4ff6-88e0-f056e990aa63.png)
 
-choix premiere fonctionnalité -> loot at top N mark 
+Now, you need to choose the feature you want to use.
+
+<!--  choix premiere fonctionnalité -> loot at top N mark 
 no specific nationality, if u choose yes -> then u have to choose which nationality between a list of ones
 Choix 15 top mark
 choix homem 
 choix look for jumps
-pole vault
+pole vault-->
 
 ![Screen 2](https://user-images.githubusercontent.com/98753607/161865921-09514d92-0de2-4da5-82f1-582ee6c88406.png)
 
-Maintenant si suite choix nombre semaine j'avais choisi l'option 2 -> any record, voici resultat
+<!--  Maintenant si suite choix nombre semaine j'avais choisi l'option 2 -> any record, voici resultat-->
 
 ![Screen 3](https://user-images.githubusercontent.com/98753607/161865927-008aa532-4e5f-414a-ad17-ad20f44995ec.png)
 
-Si fonctionnalité 3, comme fonctionnalité 1 -> choix femme ici puis choix course puis le 100m 
+<!--  Si fonctionnalité 3, comme fonctionnalité 1 -> choix femme ici puis choix course puis le 100m --> 
 
 ![Screen 4](https://user-images.githubusercontent.com/98753607/161865937-e91a998d-8786-475c-83e2-3a7b2c19f729.png)
 
