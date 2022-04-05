@@ -92,24 +92,24 @@ def filter_competitions_df(dataframe,n):
 ###############################################################################
 
 #1D - Create links for competitions results pages
-def create_results_links():
+def create_results_links(df):
     #Links for day 1
     results_urls = []
-    for identity in list(filtered_df['id']):
+    for identity in list(df['id']):
         things_make_results_link = ['https://www.worldathletics.org/competition/calendar-results/results/',str(identity)]
         results_url = ''.join(things_make_results_link)
         results_urls.append(results_url)
            
     #Links for days 2 until n
     #Create new column in filtered_df
-    filtered_df['startDate'] = pd.to_datetime(filtered_df['startDate']).dt.date
-    filtered_df['Number_of_days'] = filtered_df['endDate'] - filtered_df['startDate'] 
+    df['startDate'] = pd.to_datetime(df['startDate']).dt.date
+    df['Number_of_days'] = df['endDate'] - df['startDate'] 
 
     #Loop on index to keep only competitions with Number_of_days > 0
-    index_list = list(filtered_df.index)
+    index_list = list(df.index)
     for k in index_list:
-        if filtered_df['Number_of_days'][k].days == 0:
-            filtered_df_clean = filtered_df.drop(labels=k, axis=0)
+        if df['Number_of_days'][k].days == 0:
+            filtered_df_clean = df.drop(labels=k, axis=0)
 
     #Reset filtered_df index        
     filtered_df_clean = filtered_df_clean.reset_index(drop=True)
