@@ -2,7 +2,7 @@
 
 # About the Project
 
-**IN PROGRESS** [25%](https://progress-bar.dev/25)
+**In Progress** ![25%](https://progress-bar.dev/25)
 
 Soon...
 
