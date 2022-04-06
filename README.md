@@ -1,6 +1,8 @@
-# Track and Field Results Browser and Winner Probability Model (In Progress)
+# Track and Field Results Browser and Winner Probability Model
 
 # About the Project
+
+**In Progress**
 
 Soon...
 
