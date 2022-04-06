@@ -57,7 +57,9 @@ First, I chose to launch the browser in English. Then I wanted to keep the compe
 
 Now, you need to choose the feature you want to use.
 
-Here, I picked the first one : **__"Look at the top N Marks"__**. But I didn't want to restrict to a specific nationality (If you pick yes, you have to choose the one you want to select from a list). Then, I chose **N = 15**, so I will only see the 15 best marks later. Finally, I wanted to check out the men's pole vault results. That's why I selected consecutively : **Men**, **Jumps** and **Pole Vault**.
+   - First one : **__"Look at the top N Marks"__**
+
+Here, I picked the first one by typing 1 in the console. But I didn't want to restrict to a specific nationality (If you pick yes, you have to choose the one you want to select from a list). Then, I chose **N = 15**, so I will only see the 15 best marks later. Finally, I wanted to check out the men's pole vault results. That's why I selected consecutively : **Men**, **Jumps** and **Pole Vault**.
 Now, you get what you were looking for.
 
 ![Screen 2](https://user-images.githubusercontent.com/98753607/161865921-09514d92-0de2-4da5-82f1-582ee6c88406.png)
