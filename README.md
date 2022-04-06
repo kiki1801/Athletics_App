@@ -48,33 +48,29 @@ Soon more explanations...
 
 ## Usage
 
-Now, you can run the `main.py` file.
+Now, you can run the `main.py` file and follow the instructions on your Python console.
+Below, you can see a demo. 
 
-Below, you can see a demo where I chose to launch the browser in English. Then, I kept 2 weeks of interest in the results of the competitions.
+First, I chose to launch the browser in English. Then I wanted to keep the competitions of the last 2 weeks.
 
 ![Screen 1](https://user-images.githubusercontent.com/98753607/161865916-4ed93373-003c-4ff6-88e0-f056e990aa63.png)
 
 Now, you need to choose the feature you want to use.
 
-<!--  choix premiere fonctionnalité -> loot at top N mark 
-no specific nationality, if u choose yes -> then u have to choose which nationality between a list of ones
-Choix 15 top mark
-choix homem 
-choix look for jumps
-pole vault-->
+Here, I picked the first one : **__"Look at the top N Marks"__**. But I didn't want to restrict to a specific nationality (If you pick yes, you have to choose the one you want to select from a list). Then, I chose **N = 15**, so I will only see the 15 best marks later. Finally, I wanted to check out the men's pole vault results. That's why I selected consecutively : **Men**, **Jumps** and **Pole Vault**.
+Now, you get what you were looking for.
 
 ![Screen 2](https://user-images.githubusercontent.com/98753607/161865921-09514d92-0de2-4da5-82f1-582ee6c88406.png)
 
-<!--  Maintenant si suite choix nombre semaine j'avais choisi l'option 2 -> any record, voici resultat-->
+I also made examples for others features : 
+
+   - Second one : **__"Any Records ?"__**
 
 ![Screen 3](https://user-images.githubusercontent.com/98753607/161865927-008aa532-4e5f-414a-ad17-ad20f44995ec.png)
 
-<!--  Si fonctionnalité 3, comme fonctionnalité 1 -> choix femme ici puis choix course puis le 100m --> 
+   - Third one : **__"Winning Probability ?"__**
 
 ![Screen 4](https://user-images.githubusercontent.com/98753607/161865937-e91a998d-8786-475c-83e2-3a7b2c19f729.png)
-
-
-Soon more explanations...
 
 # Contributor
 
