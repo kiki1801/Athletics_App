@@ -13,23 +13,22 @@
 
 # About the Project
 
-Soon...
+This browser is based on a web scraping project made during my first year of master's degree ([kyllianj/M1_Web_Scraping_IAAF](https://github.com/kyllianj/M1_Web_Scraping_IAAF)).
 
-<!-- This navigator is based on a web scraping project in my first year's master degree ([kyllianj/M1_Web_Scraping_IAAF](https://github.com/kyllianj/M1_Web_Scraping_IAAF))
+It consists of doing web scraping on the calendar of competitions of the International Association of Athletics Federations ([IAAF](https://worldathletics.org/competition/calendar-results?) in order to obtain all the results of the last n weeks. 
 
-Il consiste à faire du web scraping sur le calendrier des compétitions du site de l'Association Internationale des Fédérations d'Athlétisme ([IAAF](https://worldathletics.org/competition/calendar-results?) en anglais) afin de d'envoyer un mail récapitulatif des meilleures performances d'athlétisme, relativement à des seuils fixés, réalisées au cours des quatre dernières semaines écoulées. 
+![IAAF](https://user-images.githubusercontent.com/98753607/162062744-de7b4c2d-6ab4-436c-a9a0-5385b860831d.png)
 
-Ce récapitulatif des performances est pratique pour se tenir informer des résultats récents notamment dans le cas où on a pas le temps de regarder toutes les compétitions, ni accès aux plateformes de diffusion, et aussi dans le cas où la compétition n'est pas diffusé.\
-Il peut aussi servir à avoir une idée des athlètes qui dominent une discipline et des athlètes en forme dernièrement sur chaque discipline.\
-Ainsi, cela donne une brève intuition de quel athlète est favori sur chaque discipline pour les compétitions à venir.\
-En quelque sorte, ce projet pourrait permettre de prédire les futurs vainqueurs des prochaines compétitions. 
+From these results I created three different features, to look at the top k performances for each discipline, to check if any records have been broken recently and there is also a probability model to predict who will have the most chance to win in future competitions.
 
-![Capture d’écran 2022-04-01 à 11 31 11](https://user-images.githubusercontent.com/98753607/161236875-4302259d-3984-48aa-ad13-efbb8cbbcb2f.png)
+This project can be useful to stay informed about the latest best results in athletics. Thanks to the first feature, it gives us an idea of who dominates his/her discipline currently. The odds of winning help us know who is most likely to win based on recent past results.
 
-Some of the challenges you faced and features you hope to implement in the future.
-
-3. Table of Contents (Optional) -->
-
+Features I hope to implement in the near future : 
+ - [ ] Coding to choose a specific nationality in the first feature **__"Look at the top N Marks"__**.
+ - [ ] Add the next competition start list in the probability model to only compute odds for athletes who will perform.
+ - [ ] Add relays, combined events and race walking in the browser.
+ - [ ] Add wind for outdoor events.
+ - [ ] Create a graphics window to see the output in a nicer way.
 
 # Build With 
 
