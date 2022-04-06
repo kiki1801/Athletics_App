@@ -1,9 +1,6 @@
-# Track and Field Results Browser and Winner Probability Model
+# Track and Field Results Browser and Winner Probability Model ![25%](https://progress-bar.dev/25)
 
 # About the Project
-
-**IN PROGRESS :**\
-![25%](https://progress-bar.dev/25)
 
 Soon...
 
