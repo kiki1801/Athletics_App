@@ -2,7 +2,7 @@
 
 # About the Project
 
-**In Progress**
+**IN PROGRESS**
 
 Soon...
 
