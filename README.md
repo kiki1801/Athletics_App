@@ -1,5 +1,13 @@
 # Track and Field Results Browser and Winner Probability Model ![25%](https://progress-bar.dev/25)
 
+- [About the Project](#about-the-project)
+- [Build With](#build-with)
+- [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+  * [Usage](#usage)
+- [Contributor](#contributor)
+
 # About the Project
 
 Soon...
