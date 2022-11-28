@@ -15,7 +15,7 @@
 
 This browser is based on a web scraping project made during my first year of master's degree ([kyllianj/M1_Web_Scraping_IAAF](https://github.com/kyllianj/M1_Web_Scraping_IAAF)).
 
-It consists of doing web scraping on the calendar of competitions of the International Association of Athletics Federations ([IAAF](https://worldathletics.org/competition/calendar-results?) in order to obtain all the results of the last n weeks. 
+It consists of doing web scraping on the calendar of competitions of the International Association of Athletics Federations ([IAAF](https://worldathletics.org/competition/calendar-results?)) in order to obtain all the results of the last n weeks. 
 
 ![IAAF](https://user-images.githubusercontent.com/98753607/162062744-de7b4c2d-6ab4-436c-a9a0-5385b860831d.png)
 
